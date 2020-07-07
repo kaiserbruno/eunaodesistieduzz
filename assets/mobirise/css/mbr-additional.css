@@ -817,75 +817,49 @@ section.lazy-placeholder:after {
 .cid-rYedUwHCnN H3 {
   color: #7efd00;
 }
-.cid-rZ6NfioDtp {
+.cid-s44yBuHLmY {
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 0px;
   background-color: #ffffff;
 }
-.cid-rZ6NfioDtp h2 {
-  text-align: left;
-}
-.cid-rZ6NfioDtp h4 {
-  text-align: left;
-  font-weight: 500;
-}
-.cid-rZ6NfioDtp p {
-  color: #767676;
-  text-align: left;
-}
-.cid-rZ6NfioDtp .aside-content {
-  flex-basis: 100%;
-  -webkit-flex-basis: 100%;
-}
-.cid-rZ6NfioDtp .block-content {
-  display: -webkit-flex;
-  flex-direction: column;
-  -webkit-flex-direction: column;
-  word-break: break-word;
-}
-.cid-rZ6NfioDtp .media {
-  margin: initial;
-  align-items: center;
-  -webkit-align-items: center;
-}
-.cid-rZ6NfioDtp .mbr-figure {
-  align-self: flex-start;
-  -webkit-align-self: flex-start;
-  -webkit-flex-shrink: 0;
-  flex-shrink: 0;
-}
-.cid-rZ6NfioDtp .card-img {
-  padding-right: 2rem;
-  width: auto;
-}
-.cid-rZ6NfioDtp .card-img span {
-  font-size: 72px;
-  color: #707070;
-}
 @media (min-width: 992px) {
-  .cid-rZ6NfioDtp .mbr-figure {
+  .cid-s44yBuHLmY .mbr-figure {
     padding-right: 4rem;
   }
 }
 @media (max-width: 991px) {
-  .cid-rZ6NfioDtp .mbr-figure {
-    padding-right: 0;
+  .cid-s44yBuHLmY .mbr-figure {
     padding-bottom: 1rem;
-    margin-bottom: 2rem;
   }
 }
-@media (max-width: 300px) {
-  .cid-rZ6NfioDtp .card-img span {
-    font-size: 40px !important;
-  }
+.cid-s44yBuHLmY .mbr-text {
+  color: #767676;
 }
-.cid-rZ6NfioDtp .mbr-text {
-  color: #031e26;
+.cid-s44wgnDvtU {
+  padding-top: 0px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-s44wgnDvtU h1 {
+  color: #616161;
+}
+.cid-s44wgnDvtU h2,
+.cid-s44wgnDvtU h3,
+.cid-s44wgnDvtU p {
+  color: #767676;
+}
+.cid-s44wgnDvtU .mbr-section-subtitle {
+  font-style: italic;
+}
+.cid-s44wgnDvtU H1 {
   text-align: center;
 }
-.cid-rZ6NfioDtp H2 {
+.cid-s44wgnDvtU H3 {
   text-align: center;
-  color: #073b4c;
+}
+.cid-s44wgnDvtU .mbr-text,
+.cid-s44wgnDvtU .mbr-section-btn {
+  text-align: center;
 }
 .cid-rYN5MOE1M3 {
   padding-top: 15px;

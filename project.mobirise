@@ -52,7 +52,7 @@
     "sitemapSwitcherAuto": "on",
     "siteUrl": "https://ebooksdesucesso.mobirisesite.com/sitemap.xml",
     "gdpr": false,
-    "uniqCompNum": 37,
+    "uniqCompNum": 39,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
@@ -171,7 +171,7 @@
             }
           },
           "_name": "countdown1",
-          "_customHTML": "<section class=\"countdown1\" group=\"Countdowns\" plugins=\"countdown\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"text\" title=\"Countdown\" name=\"countdown\" value=\"2020/07/08\">\n        <input type=\"text\" inline title=\"Days\" name=\"daysCountdown\" value=\"Dias\">\n        <input type=\"text\" inline title=\"Hours\" name=\"hoursCountdown\" value=\"Horas\">\n        <input type=\"text\" inline title=\"Minutes\" name=\"minutesCountdown\" value=\"Minutos\">\n        <input type=\"text\" inline title=\"Seconds\" name=\"secondsCountdown\" value=\"Segundos\">\n        <input type=\"color\" title=\"Numbers Color\" name=\"numbersColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Labels Color\" name=\"labelsColor\" value=\"#ffffff\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ff0000\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container \">\n        <h2 class=\"mbr-section-title pb-3 align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>A PROMOÇÃO TERMINA EM:</b></h2>\n        <h3 class=\"mbr-section-subtitle align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"><b>NADA MUDA SE VOCÊ NÃO MUDAR!</b><br><div><i style=\"font-size: 1.5rem;\">Você quer mudar de vida Agora $$$&nbsp;</i><br></div><div><b>Contagem Regressiva!</b></div></h3>\n        \n    </div>\n    <div class=\"container countdown-cont align-center\">\n        <div title=\"{{daysCountdown}}\" class=\"daysCountdown col-xs-3 col-sm-3 col-md-3\"></div>\n        <div title=\"{{hoursCountdown}}\" class=\"hoursCountdown col-xs-3 col-sm-3 col-md-3\"></div> \n        <div title=\"{{minutesCountdown}}\" class=\"minutesCountdown col-xs-3 col-sm-3 col-md-3\"></div> \n        <div title=\"{{secondsCountdown}}\" class=\"secondsCountdown col-xs-3 col-sm-3 col-md-3\"></div>\n        <div class=\"countdown pt-5 mt-2\" data-due-date=\"{{countdown}}\"> \n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"countdown1\" group=\"Countdowns\" plugins=\"countdown\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"text\" title=\"Countdown\" name=\"countdown\" value=\"2020/07/08\">\n        <input type=\"text\" inline title=\"Days\" name=\"daysCountdown\" value=\"Dias\">\n        <input type=\"text\" inline title=\"Hours\" name=\"hoursCountdown\" value=\"Horas\">\n        <input type=\"text\" inline title=\"Minutes\" name=\"minutesCountdown\" value=\"Minutos\">\n        <input type=\"text\" inline title=\"Seconds\" name=\"secondsCountdown\" value=\"Segundos\">\n        <input type=\"color\" title=\"Numbers Color\" name=\"numbersColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Labels Color\" name=\"labelsColor\" value=\"#ffffff\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ff0000\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container \">\n        <h2 class=\"mbr-section-title pb-3 align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>A PROMOÇÃO TERMINA EM:</b></h2>\n        <h3 class=\"mbr-section-subtitle align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"><b>NADA MUDA SE VOCÊ NÃO MUDAR!</b><br><div><i style=\"font-size: 1.5rem;\">$$$ Você quer mudar de vida Agora $$$&nbsp;</i><br></div><div><b>Contagem Regressiva!</b></div></h3>\n        \n    </div>\n    <div class=\"container countdown-cont align-center\">\n        <div title=\"{{daysCountdown}}\" class=\"daysCountdown col-xs-3 col-sm-3 col-md-3\"></div>\n        <div title=\"{{hoursCountdown}}\" class=\"hoursCountdown col-xs-3 col-sm-3 col-md-3\"></div> \n        <div title=\"{{minutesCountdown}}\" class=\"minutesCountdown col-xs-3 col-sm-3 col-md-3\"></div> \n        <div title=\"{{secondsCountdown}}\" class=\"secondsCountdown col-xs-3 col-sm-3 col-md-3\"></div>\n        <div class=\"countdown pt-5 mt-2\" data-due-date=\"{{countdown}}\"> \n        </div>\n    </div>\n</section>",
           "_cid": "rZj4gXwli0",
           "_anchor": "countdown1-u",
           "_protectedParams": [],
@@ -216,106 +216,92 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "& when not (@reverseContent)": {
+              "@media (min-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-right": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".mbr-figure": {
+                  "padding-bottom": "1rem"
+                }
+              }
+            },
+            "& when (@reverseContent)": {
+              ".media-container-row": {
+                "flex-direction": "row-reverse",
+                "-webkit-flex-direction": "row-reverse"
+              },
+              "@media (min-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-left": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".media-container-row": {
+                  "flex-wrap": "wrap-reverse",
+                  "-webkit-flex-wrap": "wrap-reverse"
+                },
+                ".mbr-figure": {
+                  "padding-top": "1rem"
+                }
+              }
+            },
+            ".mbr-text": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content6",
+          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"60\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\">  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <img src=\"@PROJECT_PATH@/assets/images/kaiser.jpg\" alt=\"Mobirise\" title>  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\"><b>SOBRE O AUTOR</b><br><br>Olá! Me chamo Kaiser Bruno, sou Empreendedor e Criador de Conteúdos para Afiliados.<br>Estou aqui para te ajudar a ter sua independência financeira agora.&nbsp;</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s44yBuHLmY",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content6-12"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
             },
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            "h2": {
-              "text-align": "left"
+            "h1": {
+              "color": "#616161"
             },
-            "h4": {
-              "text-align": "left",
-              "font-weight": "500"
+            "h2, h3, p": {
+              "color": "#767676"
             },
-            "p": {
-              "color": "#767676",
-              "text-align": "left"
+            ".mbr-section-subtitle": {
+              "font-style": "italic"
             },
-            ".aside-content": {
-              "flex-basis": "100%",
-              "-webkit-flex-basis": "100%"
-            },
-            ".block-content": {
-              "display": "-webkit-flex",
-              "flex-direction": "column",
-              "-webkit-flex-direction": "column",
-              "word-break": "break-word"
-            },
-            ".media": {
-              "margin": "initial",
-              "align-items": "center",
-              "-webkit-align-items": "center"
-            },
-            ".mbr-figure": {
-              "align-self": "flex-start",
-              "-webkit-align-self": "flex-start",
-              "-webkit-flex-shrink": "0",
-              "flex-shrink": "0"
-            },
-            ".card-img": {
-              "padding-right": "2rem",
-              "width": "auto"
-            },
-            ".card-img span": {
-              "font-size": "72px",
-              "color": "#707070"
-            },
-            "@media (min-width: 992px)": {
-              ".mbr-figure": {
-                "padding-right": "4rem",
-                "& when (@reverseContent)": {
-                  "padding-right": "0",
-                  "padding-left": "4rem"
-                }
-              },
-              ".media-container-row": {
-                "& when (@reverseContent)": {
-                  "-webkit-flex-direction": "row-reverse"
-                }
-              }
-            },
-            "@media (max-width: 991px)": {
-              ".mbr-figure": {
-                "padding-right": "0",
-                "padding-bottom": "1rem",
-                "margin-bottom": "2rem",
-                "& when (@reverseContent)": {
-                  "padding-bottom": "0",
-                  "margin-bottom": "0",
-                  "padding-top": "1rem",
-                  "margin-top": "2rem"
-                }
-              },
-              ".media-container-row": {
-                "& when (@reverseContent)": {
-                  "-webkit-flex-direction": "column-reverse"
-                }
-              }
-            },
-            "@media (max-width: 300px)": {
-              ".card-img span": {
-                "font-size": "40px !important"
-              }
-            },
-            ".mbr-text": {
-              "color": "#031e26",
+            "H1": {
               "text-align": "center"
             },
-            "H2": {
-              "text-align": "center",
-              "color": "#073b4c"
+            "H3": {
+              "text-align": "center"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "text-align": "center"
             }
           },
-          "_name": "features11",
-          "_customHTML": "<section class=\"features11\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text Header\" name=\"showTextHead\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\">\n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"reverseContent\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"20\" max=\"80\" step=\"5\" value=\"35\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">   \n        <div class=\"col-md-12\">\n            <div class=\"media-container-row\">\n                <div class=\"mbr-figure m-auto\" mbr-style=\"{'width': mediaSize + '%'}\">\n                    <a href=\"https://sun.eduzz.com/395206\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/kaiser.jpg\" alt=\"Mobirise\" title></a>\n                </div>\n                <div class=\" align-left aside-content\">\n                    <h2 class=\"mbr-title pt-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\"><b>SOBRE O AUTOR</b></h2>\n                    <div class=\"mbr-section-text\">\n                        <p class=\"mbr-text mb-5 pt-3 mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-text\">Olá! Me chamo Kaiser Bruno, sou Empreendedor e Criador de Conteúdos para Afiliados.\n<br>\n<br>Quero compartilhar com você minha experiência adquirida durante anos trabalhando no Marketing Digital, te dizer por que eu nunca desisti, mesmo com tudo conspirando contra mim e eu vendo pessoas diariamente desistindo do Marketing Digital. \n<br>\n<br>Quebrei muito a cara, tive decepções, perdi muito dinheiro investindo em projetos errados, já fui enganado com cursos mentirosos e sem fundamentos, já fiz de tudo se tratando de Marketing Digital em busca do tão sonhado DINHEIRO ONLINE e somente quando parei e decidi ouvir quem realmente queria me ajudar, que tudo começou a mudar e acontecer em minha vida $$$.\n<br>\n<br>Quero fazer por você a mesma coisa que fizeram por mim que fez toda a diferença em minha vida. \n<br>\n<br>Vamos começar AGORA uma nova etapa em sua vida? Então vem comigo! \n<br>\n<br>Não sei como está a sua situação nesse exato momento no Marketing Digital, mas quero que você LEIA meu E-Book Agora, pois tenho certeza que sua vida mudará para sempre. \n<br>\n<br>Iniciei no Marketing Digital em 2003, quero te contar como tudo aconteceu e te ajudar na sua caminhada, pois sei o quanto você tem sonhado ter sucesso financeiro e profissional no Marketing Digital. \n<br>\n<br>Vou te passar dicas, informações e conteúdos importantes que farão toda a diferença na sua vida como Afiliado(a) e também como Empresário(a) Digital. \n<br>\n<br>O que eu levei muito tempo para conseguir, você fará em poucos dias (VENDAS), pois terá em suas mãos tudo que uma pessoa precisa para realizar muitas vendas e ganhar muito dinheiro trabalhando pela internet no conforto da sua casa. \n<br>\n<br>Você já tentou imaginar acordando de manhã e conferindo em seu celular quantas vendas foram realizadas enquanto você dormia? Isso será realidade daqui ah alguns dias! \n<br>\n<br>Vou te dar de presente 05 SUPER BÔNUS para você trabalhar e ganhar dinheiro no Marketing Digital, iniciar seu negócio online desde o zero até o sucesso profissional e financeiro. \n<br>\n<br>Não deixarei este E-Book disponível à venda por muito tempo, por isso recomendo Comprar Agora para não perder este material com todos os seus Presentes Bônus que você não encontrará em outro lugar.<br><br>OBS. \n<br>Todas as informações contidas neste guia são provenientes de minhas experiências pessoais ao longo de vários anos. Embora eu tenha me esforçado ao máximo para garantir a precisão e a mais alta qualidade dessas informações e acredito que todas as técnicas e métodos aqui ensinados sejam altamente efetivos, eu não me responsabilizo por erros ou omissões. Sua situação e/ou condição particular pode não se adequar perfeitamente aos métodos e técnicas ensinados neste guia. \n<br>Assim, você deverá utilizar e ajustar as informações deste guia de acordo com sua situação e necessidades.<br></p>\n                    </div>\n\n                    <div class=\"block-content\" mbr-if=\"showTextHead||showText||showIcons\">\n                        <div class=\"card p-3 pr-3\">\n                            <div class=\"media\">\n                                <div class=\" align-self-center card-img pb-3\" mbr-if=\"showIcons\">\n                                    <span mbr-icon class=\"mbri-extension mbr-iconfont\"></span>\n                                </div>     \n                                <div class=\"media-body\">\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTextHead\">\n                                        Over 400 Amazing Blocks\n                                    </h4>\n                                </div>\n                            </div>                \n\n                            <div class=\"card-box\">\n                                <p class=\"block-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                   Mobirise offers several themes that include sliders, galleries, article blocks, counters, accordions, video, animated text, live filtered tables, shop, contact forms, lightbox, testimonials, timelines, google map, progress bars and more. \n                                </p>\n                            </div>\n                        </div>\n\n                        <div class=\"card p-3 pr-3\" mbr-if=\"cardsAmount > 1\">\n                            <div class=\"media\">\n                                <div class=\"align-self-center card-img pb-3\" mbr-if=\"showIcons\">\n                                    <span mbr-icon class=\"mbri-drag-n-drop2 mbr-iconfont\"></span>\n                                </div>     \n                                <div class=\"media-body\">\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTextHead\">\n                                        Easy and Simple to Use\n                                    </h4>\n                                </div>\n                            </div>                \n\n                            <div class=\"card-box\">\n                                <p class=\"block-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                    Cut down the development time with drag-and-drop website builder. Drop the blocks into the page, edit content inline and publish - no technical skills required.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div> \n    </div>          \n</section>",
-          "_cid": "rZ6NfioDtp",
-          "_anchor": "features11-r",
+          "_name": "header9",
+          "_customHTML": "<section class=\"header9\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n\n        <input type=\"checkbox\" name=\"halfSize\" title=\"Half Size\" checked>\n        <select title=\"Align\" name=\"alignHalf\" condition=\"halfSize\">\n            <option value=\"1\">Left</option>\n            <option value=\"2\" selected>Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/kaiser.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-column mbr-white\" mbr-class=\"{'col-lg-8 col-md-10': halfSize, 'm-auto': halfSize &&  alignHalf==2, 'ml-auto': halfSize &&  alignHalf==3}\">\n            <h1 class=\"mbr-section-title align-left mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">SOBRE O AUTOR</h1>\n            <h3 class=\"mbr-section-subtitle align-left mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\"></h3>\n            <p class=\"mbr-text align-left pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><br>Quero compartilhar com você minha experiência adquirida durante anos trabalhando no Marketing Digital, te dizer <b>por que eu nunca desisti</b>, mesmo com tudo conspirando contra mim e eu vendo pessoas diariamente desistindo do Marketing Digital. \n<br>\n<br><b>Quebrei muito a cara, tive decepções, perdi muito dinheiro investindo em projetos errados, já fui enganado com cursos mentirosos e sem fundamentos</b>, já fiz de tudo se tratando de <b>Marketing Digital</b> em busca do tão sonhado <b>DINHEIRO ONLINE,</b>&nbsp;somente quando parei e decidi <b>ouvir quem realmente queria me ajudar</b>, que tudo começou a acontecer em minha vida $$$. <br><b>Quero fazer por você o mesmo que fizeram por mim que fez toda a diferença em minha vida.</b> <br><br><i>Vamos começar AGORA uma nova etapa em sua vida? <br>Então vem comigo! </i><br><br>Não sei como está a sua situação nesse exato momento no Marketing Digital, mas <b>quero que você LEIA meu E-Book Agora</b>, pois tenho certeza que <b>sua vida mudará para sempre</b>.<br> <br><b>Iniciei no Marketing Digital em 2003</b>, quero te contar como tudo aconteceu e te ajudar na sua caminhada, pois <b>sei o quanto você tem sonhado ter sucesso financeiro e profissional no Marketing Digital</b>. <br><br>Vou te passar dicas, informações e conteúdos importantes que farão toda a diferença para como Afiliado(a) e também Empresário(a) Digital. <br><br>O que eu <b>levei muito tempo para conseguir, você fará em poucos dias (VENDAS)</b>, pois terá em suas mãos tudo que uma pessoa precisa para realizar muitas vendas e ganhar muito dinheiro trabalhando pela internet no conforto da sua casa. <br><br>Você já tentou imaginar acordando de manhã e conferindo em seu celular quantas vendas foram realizadas enquanto você dormia? Isso será realidade daqui ah alguns dias! \n<br>\n<br><b>Vou te dar de presente 05 SUPER BÔNUS</b> para você trabalhar e <b>ganhar dinheiro no Marketing Digital</b>, iniciar seu negócio online desde o zero até o sucesso profissional e financeiro. \n<br>\n<br><b>Não deixarei este E-Book disponível à venda por muito tempo</b>, por isso recomendo <b>Comprar Agora</b> para não perder este material com todos os seus Presentes Bônus que você não encontrará em outro lugar.\n<br>\n<br><i><b>OBS.</b> \n<br>Todas as informações contidas neste guia são provenientes de minhas experiências pessoais ao longo de vários anos. Embora eu tenha me esforçado ao máximo para garantir a precisão e a mais alta qualidade dessas informações e acredito que todas as técnicas e métodos aqui ensinados sejam altamente efetivos, eu não me responsabilizo por erros ou omissões. Sua situação e/ou condição particular pode não se adequar perfeitamente aos métodos e técnicas ensinados neste guia. \n<br>Assim, você deverá utilizar e ajustar as informações deste guia de acordo com sua situação e necessidades.</i></p>\n            <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">LEARN MORE</a></div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_cid": "s44wgnDvtU",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "header9-11"
         },
         {
           "alias": false,
