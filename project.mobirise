@@ -64,7 +64,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "POR QUE EU NÃO DESISTI-EDUZZ",
+        "title": "POR QUE EU NÃO DESISTI - EDUZZ",
         "meta_descr": "Qual a melhor estratégia de Marketing para novos Afiliados que ainda não conseguiram realizar nenhuma venda. Aí está uma pergunta valiosa e eu tenho as respostas, sabia!",
         "header_custom": "",
         "footer_custom": "",
@@ -250,7 +250,8 @@
               }
             },
             ".mbr-text": {
-              "color": "#031e26"
+              "color": "#031e26",
+              "text-align": "center"
             }
           },
           "_name": "content6",
